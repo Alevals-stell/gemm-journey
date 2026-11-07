@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 #include <chrono>
 #include <cstdio>
 #include <vector>
@@ -87,4 +84,3 @@ int main(){
     return 0;
 
 }
->>>>>>> 7b6ba1f (day2: cpu naive matmul)

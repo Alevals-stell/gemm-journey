@@ -89,7 +89,7 @@ void matmul_tiled(int N, const float* A, const float* B, float* C, int BS) {
 
 int main(){
     
-    int M = 1024, N = 1024, K = 1024, BS = 128;
+    int M = 4096, N = 4096, K = 4096, BS = 128;
     vector<float> A(M*K), B(K*N), C1(M*N), C2(M*N);
     init_random(A.data(), A.size());
     init_random(B.data(), B.size());
